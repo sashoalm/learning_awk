@@ -1,1 +1,5 @@
-{ print $2+5 }
+{
+	w += NF
+}
+
+END { print w }
