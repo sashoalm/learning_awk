@@ -1,3 +1,1 @@
-length($0) > 8 { print "Hello, world!" }
-
-
+length($0) > 7 { print }
