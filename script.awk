@@ -1,5 +1,1 @@
-{
-	w += NF
-}
-
-END { print w }
+END { print NR }
