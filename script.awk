@@ -1,1 +1,1 @@
-length($0) > 7 { print }
+{ print $2 }
